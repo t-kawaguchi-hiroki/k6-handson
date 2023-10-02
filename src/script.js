@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { sleep } from 'k6';
 
-// 30秒の間に10人の仮想ユーザー(vus)がシナリオを並列で実行する
+// 30秒の間に10人の仮想ユーザー(vus)がシナリオを並列で実行し続ける
 export const options = {
   vus: 10,
   duration: '30s',
