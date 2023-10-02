@@ -65,9 +65,8 @@ default ✓ [======================================] 10 VUs  30s
 | メトリクス名  | 説明 |
 | ------------- | ------------- |
 | http_req_duration | リクエストのレイテンシ |
-| http_req_failed | リクエストの失敗率 |
+| http_req_failed | リクエストの失敗率 ※サーバーが高負荷な状態だとおそらくこの数値が大きくなる |
 | http_reqs | リクエストの合計数 |
-| iterations | 実行したシナリオの合計数 |
-| vus | シナリオの並列実行数 |
+| vus | 仮想ユーザー(シナリオの並列実行数) |
 
-https://k6.io/docs/using-k6/metrics/reference/
+[その他のメトリクス](https://k6.io/docs/using-k6/metrics/reference/)
